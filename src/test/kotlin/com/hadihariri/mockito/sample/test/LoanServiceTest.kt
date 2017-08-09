@@ -16,6 +16,5 @@ class LoanServiceTest {
         val loanService = LoanService(LoanCalculator())
         val amount = loanService.authoriseCustomerLoan(3)
         assertEquals(300.0, amount)
-
     }
 }
