@@ -2,7 +2,7 @@ package com.hadihariri.mockito.sample.test
 
 import com.hadihariri.mockito.sample.LoanCalculator
 import com.hadihariri.mockito.sample.LoanService
-import org.junit.jupiter.api.Test
+import org.junit.Test
 import kotlin.test.assertEquals
 import org.mockito.Mockito.*
 
